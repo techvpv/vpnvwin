@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Set" targetNamespace="http://prothemes.biz/Set.xsd" xmlns:mstns="http://prothemes.biz/Set.xsd" xmlns="http://prothemes.biz/Set.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Set" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="_Set" msprop:Generator_UserDSName="Set">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="options" msprop:Generator_TableClassName="optionsDataTable" msprop:Generator_TableVarName="tableoptions" msprop:Generator_TablePropName="options" msprop:Generator_RowDeletingName="optionsRowDeleting" msprop:Generator_RowChangingName="optionsRowChanging" msprop:Generator_RowEvHandlerName="optionsRowChangeEventHandler" msprop:Generator_RowDeletedName="optionsRowDeleted" msprop:Generator_UserTableName="options" msprop:Generator_RowChangedName="optionsRowChanged" msprop:Generator_RowEvArgName="optionsRowChangeEvent" msprop:Generator_RowClassName="optionsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" msprop:Generator_UserColumnName="username" type="xs:string" minOccurs="0" />
+              <xs:element name="password" msprop:Generator_ColumnVarNameInTable="columnpassword" msprop:Generator_ColumnPropNameInRow="password" msprop:Generator_ColumnPropNameInTable="passwordColumn" msprop:Generator_UserColumnName="password" type="xs:string" minOccurs="0" />
+              <xs:element name="landing_page" msprop:Generator_ColumnVarNameInTable="columnlanding_page" msprop:Generator_ColumnPropNameInRow="landing_page" msprop:Generator_ColumnPropNameInTable="landing_pageColumn" msprop:Generator_UserColumnName="landing_page" type="xs:string" minOccurs="0" />
+              <xs:element name="startup" msprop:Generator_ColumnVarNameInTable="columnstartup" msprop:Generator_ColumnPropNameInRow="startup" msprop:Generator_ColumnPropNameInTable="startupColumn" msprop:Generator_UserColumnName="startup" type="xs:string" minOccurs="0" />
+              <xs:element name="lport" msprop:Generator_ColumnVarNameInTable="columnlport" msprop:Generator_ColumnPropNameInRow="lport" msprop:Generator_ColumnPropNameInTable="lportColumn" msprop:Generator_UserColumnName="lport" type="xs:string" minOccurs="0" />
+              <xs:element name="tcprport" msprop:Generator_ColumnVarNameInTable="columntcprport" msprop:Generator_ColumnPropNameInRow="tcprport" msprop:Generator_ColumnPropNameInTable="tcprportColumn" msprop:Generator_UserColumnName="tcprport" type="xs:string" minOccurs="0" />
+              <xs:element name="notify" msprop:Generator_ColumnVarNameInTable="columnnotify" msprop:Generator_ColumnPropNameInRow="notify" msprop:Generator_ColumnPropNameInTable="notifyColumn" msprop:Generator_UserColumnName="notify" type="xs:string" minOccurs="0" />
+              <xs:element name="page" msprop:Generator_ColumnVarNameInTable="columnpage" msprop:Generator_ColumnPropNameInRow="page" msprop:Generator_ColumnPropNameInTable="pageColumn" msprop:Generator_UserColumnName="page" type="xs:string" minOccurs="0" />
+              <xs:element name="udprport" msprop:Generator_ColumnVarNameInTable="columnudprport" msprop:Generator_ColumnPropNameInRow="udprport" msprop:Generator_ColumnPropNameInTable="udprportColumn" msprop:Generator_UserColumnName="udprport" type="xs:string" minOccurs="0" />
+              <xs:element name="ping" msprop:Generator_ColumnVarNameInTable="columnping" msprop:Generator_ColumnPropNameInRow="ping" msprop:Generator_ColumnPropNameInTable="pingColumn" msprop:Generator_UserColumnName="ping" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
